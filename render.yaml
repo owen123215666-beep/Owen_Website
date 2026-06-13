@@ -1,0 +1,4 @@
+services
+- type: static
+  name: Owen Website
+  staticPublishpath:.
