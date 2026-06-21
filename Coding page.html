@@ -2,6 +2,14 @@
 <html lang="en"></html>
 <head>
     <meta charset="UTF-8">
+    <script>
+    function Experiment() {
+    document.getElementById("x").innerHTML = "Shoes";
+    }
+    function Experiment2() {
+        document.getElementById('x').innerHTML="This page is dedicated to some of my coding projects"
+    }
+</script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Page</title>
 </head>
@@ -31,10 +39,16 @@
             h2{
                 text-align: center;
             }
+            #first_try{
+                background-color: rgb(10, 10, 10);
+                color:black;
+                
+            }
         </style>
         <h1>Coding Page</h1>
-        <h2>This page is dedicated to some of my coding projects</h2>
+        <h2 id="x">This page is dedicated to some of my coding projects</h2>
         <p><a href="Owenwebsite.html">Home Page</a> &nbsp; <a href="Chesspage.html">Chess Page</a> &nbsp; <a href="Historypage.html" alt="History page">History Page</a></p>
     </header>
     <p>This is a page dedicated to all of the coding that I have done. I myself have actually coded this entire website from scratch. Just so you know I didn't mean coding it from base 44 or any of the other website for that purpose. I coded this in Visual Studio code using live preview from microsoft right now. Anyways I have mainly been coding in python so far but I decided to make a switch to coding a website because I was bored  a good website for coding is codedex.io which in it my username is </p>
+        <button id="first_try" type = "button" onclick="Experiment()" onclick="Experiment2()" onmouseover="Experiment()">Change Text</button>
 </body>
